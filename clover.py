@@ -12,7 +12,7 @@ if connection.is_connected():
 cursor = connection.cursor()
 cursor.execute("SHOW TABLES;")
 
-
+print('jdnc')
 
 tables = cursor.fetchall()
 
